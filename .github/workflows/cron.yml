@@ -1,0 +1,48 @@
+name: cron
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 0,4,8,12,16,20 * * *'
+
+jobs:
+  generate:
+    name: Generate on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Prepare
+        run: |
+          mkdir -p dist/gh-pages
+      - name: Fork freefq/free
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '10 0,4,8,12,16,20 * * *'
+        run: |
+          # https://github.com/freefq/free
+          # curl -Lj https://raw.fastgit.org/freefq/free/master/v2 -o dist/gh-pages/freefq_free
+          curl -Lj https://raw.githubusercontent.com/freefq/free/master/v2 -o dist/gh-pages/freefq_free
+      - name: Checkout Github Pages
+        continue-on-error: true # 忽略 gh-pages 分支未创建
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+          path: gh-pages
+      - name: Merge Github Pages
+        run: |
+          # 避免 gh-pages 分支未创建
+          mkdir -p gh-pages
+          # 计划任务无法准确描述月底
+          if [ -d dist/gh-pages ]; then cp -r dist/gh-pages/. gh-pages/; fi
+      - name: Deploy Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: gh-pages
+          branch: gh-pages
