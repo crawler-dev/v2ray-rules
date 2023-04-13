@@ -3,8 +3,7 @@ name: cron-fork
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 0,4,8,12,16,20 * * *'
-    - cron: '10 * * * *'
+    - cron: '10 0,4,8,12,16,20 * * *'
 
 jobs:
   generate:
@@ -21,21 +20,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Prepare
+      - name: Fork V2Ray Subscription
         run: |
+          # mkdir
           mkdir -p dist/gh-pages
-      - name: Fork freefq/free
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '5 0,4,8,12,16,20 * * *'
-        run: |
           # https://github.com/freefq/free
-          # curl -Lj https://raw.fastgit.org/freefq/free/master/v2 -o dist/gh-pages/freefq_free
           curl -Lj https://raw.githubusercontent.com/freefq/free/master/v2 -o dist/gh-pages/freefq_free
-      - name: Fork Pawdroid/Free-servers
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '10 * * * *'
-        run: |
           # https://github.com/Pawdroid/Free-servers
-          # curl -Lj https://raw.fastgit.org/Pawdroid/Free-servers/main/sub -o dist/gh-pages/pawdroid_free_servers
           curl -Lj https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub -o dist/gh-pages/pawdroid_free_servers
+          # https://github.com/mfuu/v2ray
+          curl -Lj https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray -o dist/gh-pages/mfuu_v2ray
+          # https://github.com/aiboboxx/v2rayfree
+          curl -Lj https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 -o dist/gh-pages/aiboboxx_v2rayfree
       - name: Checkout Github Pages
         continue-on-error: true # 忽略 gh-pages 分支未创建
         uses: actions/checkout@v3

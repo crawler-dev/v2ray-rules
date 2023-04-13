@@ -1,5 +1,9 @@
 # v2ray-rules
 
+## Docs
+
+* [tindy2013/subconverter](https://github.com/tindy2013/subconverter) - 订阅格式转换
+
 ## App
 
 |Mobile|iOS|Android|
@@ -17,6 +21,8 @@
 |----|----|----|----|
 |[freefq/free](https://github.com/freefq/free)|&#10004;|https://raw.fastgit.org/freefq/free/master/v2|https://crawler-dev.github.io/v2ray-rules/freefq_free|
 |[Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers)|&#10004;|https://raw.fastgit.org/Pawdroid/Free-servers/main/sub|https://crawler-dev.github.io/v2ray-rules/pawdroid_free_servers|
+|[mfuu/v2ray](https://github.com/mfuu/v2ray)|&#10004;|https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray|https://crawler-dev.github.io/v2ray-rules/mfuu_v2ray|
+|[aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree)|&#10004;|https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2|https://crawler-dev.github.io/v2ray-rules/aiboboxx_v2rayfree|
 
 ## 仓库声明
 
