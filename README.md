@@ -2,15 +2,11 @@
 
 ## App
 
-#### Mobile
-
-||iOS|Android|
+|Mobile|iOS|Android|
 |----|----|----|
 |[2dust/v2rayNG](https://github.com/2dust/v2rayNG)|&#10008;|&#10004;|
 
-#### Desktop
-
-||MacOS|Linux|Windows|
+|Desktop|MacOS|Linux|Windows|
 |----|----|----|----|
 |[yanue/V2rayU](https://github.com/yanue/V2rayU/tree/master)|&#10004;|&#10008;|&#10008;|
 |[2dust/v2rayN](https://github.com/2dust/v2rayN)|&#10008;|&#10008;|&#10004;|
