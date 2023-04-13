@@ -34,8 +34,6 @@ jobs:
           curl -Lj https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 -o dist/gh-pages/aiboboxx_v2rayfree
           # https://github.com/learnhard-cn/free_proxy_ss
           curl -Lj https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub -o dist/gh-pages/learnhard_cn_free_proxy_ss
-          # https://github.com/tbbatbb/Proxy
-          curl -Lj https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt -o dist/gh-pages/tbbatbb_proxy
       - name: Deploy Github Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
