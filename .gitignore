@@ -2,4 +2,7 @@
 .DS_Store
 
 #
+dist/
+
+#
 *.sh
