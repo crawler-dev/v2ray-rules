@@ -1,9 +1,5 @@
 # v2ray-rules
 
-## Docs
-
-* [tindy2013/subconverter](https://github.com/tindy2013/subconverter) - 订阅格式转换
-
 ## App
 
 |Mobile|iOS|Android|
@@ -24,9 +20,15 @@
 |[mfuu/v2ray](https://github.com/mfuu/v2ray)|&#10004;|https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray|https://crawler-dev.github.io/v2ray-rules/mfuu_v2ray|
 |[aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree)|&#10004;|https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2|https://crawler-dev.github.io/v2ray-rules/aiboboxx_v2rayfree|
 |[learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss)|&#10004;|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|https://crawler-dev.github.io/v2ray-rules/learnhard_cn_free_proxy_ss|
+|[tbbatbb/Proxy](https://github.com/tbbatbb/Proxy)|&#10004;|https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt|https://crawler-dev.github.io/v2ray-rules/tbbatbb_proxy|
 
-## 仓库声明
+## Others
 
-```text
-订阅节点仅作学习交流使用，只是对网络上节点的选择合并，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
-```
+* [WilliamStar007/ClashX-V2Ray-TopFreeProxy](https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy)
+* [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN)
+
+## Disclaimer
+
+* This project is meant for personal and educational uses only.
+* Please follow relevant laws and regulations when using this project.
+* Project owner is not responsible or liable in any manner for the use of the content.

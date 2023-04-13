@@ -34,20 +34,10 @@ jobs:
           curl -Lj https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 -o dist/gh-pages/aiboboxx_v2rayfree
           # https://github.com/learnhard-cn/free_proxy_ss
           curl -Lj https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub -o dist/gh-pages/learnhard_cn_free_proxy_ss
-      - name: Checkout Github Pages
-        continue-on-error: true # 忽略 gh-pages 分支未创建
-        uses: actions/checkout@v3
-        with:
-          ref: gh-pages
-          path: gh-pages
-      - name: Merge Github Pages
-        run: |
-          # 避免 gh-pages 分支未创建
-          mkdir -p gh-pages
-          #
-          if [ -d dist/gh-pages ]; then cp -r dist/gh-pages/. gh-pages/; fi
+          # https://github.com/tbbatbb/Proxy
+          curl -Lj https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt -o dist/gh-pages/tbbatbb_proxy
       - name: Deploy Github Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: gh-pages
+          folder: dist/gh-pages
           branch: gh-pages
