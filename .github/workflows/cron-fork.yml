@@ -32,6 +32,8 @@ jobs:
           curl -Lj https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray -o dist/gh-pages/mfuu_v2ray
           # https://github.com/aiboboxx/v2rayfree
           curl -Lj https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 -o dist/gh-pages/aiboboxx_v2rayfree
+          # https://github.com/learnhard-cn/free_proxy_ss
+          curl -Lj https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub -o dist/gh-pages/learnhard_cn_free_proxy_ss
       - name: Checkout Github Pages
         continue-on-error: true # 忽略 gh-pages 分支未创建
         uses: actions/checkout@v3

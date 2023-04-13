@@ -23,6 +23,7 @@
 |[Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers)|&#10004;|https://raw.fastgit.org/Pawdroid/Free-servers/main/sub|https://crawler-dev.github.io/v2ray-rules/pawdroid_free_servers|
 |[mfuu/v2ray](https://github.com/mfuu/v2ray)|&#10004;|https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray|https://crawler-dev.github.io/v2ray-rules/mfuu_v2ray|
 |[aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree)|&#10004;|https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2|https://crawler-dev.github.io/v2ray-rules/aiboboxx_v2rayfree|
+|[learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss)|&#10004;|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|https://crawler-dev.github.io/v2ray-rules/learnhard_cn_free_proxy_ss|
 
 ## 仓库声明
 
