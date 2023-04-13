@@ -49,8 +49,10 @@ jobs:
                 await github.rest.repos.createPagesSite({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
+                  build_type: "legacy",
                   source: {
                     branch: "gh-pages",
+                    path: "/",
                   },
                 });
               } else {
