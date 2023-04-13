@@ -14,6 +14,7 @@ jobs:
         os: [ubuntu-latest]
     permissions:
       contents: write
+      pages: write
     concurrency:
       group: ${{ github.ref }}
       cancel-in-progress: true
@@ -34,6 +35,28 @@ jobs:
           curl -Lj https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 -o dist/gh-pages/aiboboxx_v2rayfree
           # https://github.com/learnhard-cn/free_proxy_ss
           curl -Lj https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub -o dist/gh-pages/learnhard_cn_free_proxy_ss
+      - name: Create Github Pages
+        uses: actions/github-script@v6
+        with:
+          script: |
+            try {
+              await github.rest.repos.getPages({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+              });
+            } catch (error) {
+              if (error.status === 404) {
+                await github.rest.repos.createPagesSite({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  source: {
+                    branch: "gh-pages",
+                  },
+                });
+              } else {
+                throw error;
+              }
+            }
       - name: Deploy Github Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
