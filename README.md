@@ -15,10 +15,6 @@
 
 ## Subscription Mirror
 
-```text
-![](https://api.qrserver.com/v1/create-qr-code?data=${subscription url}&size=128x128)<br/>subscription url
-```
-
 |Subscription|Available|Mirror|Original|
 |----|----|----|----|
 |[freefq/free](https://github.com/freefq/free)|&#10004;|![](https://api.qrserver.com/v1/create-qr-code?data=https://crawler-dev.github.io/v2ray-rules/freefq_free&size=128x128)<br/>https://crawler-dev.github.io/v2ray-rules/freefq_free|![](https://api.qrserver.com/v1/create-qr-code?data=https://raw.fastgit.org/freefq/free/master/v2&size=128x128)<br/>https://raw.fastgit.org/freefq/free/master/v2|
