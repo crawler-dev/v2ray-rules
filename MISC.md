@@ -1,8 +1,5 @@
 # MISC
 
-## QRCode
+#### Tools
 
-```text
-# 
-https://api.qrserver.com/v1/create-qr-code?data=${string encode qrcode}&size=128x128
-```
+* [QR Code Generator](https://goqr.me/api/doc/)
