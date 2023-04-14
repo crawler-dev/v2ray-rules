@@ -5,11 +5,13 @@
 |Mobile|iOS|Android|
 |----|----|----|
 |[2dust/v2rayNG](https://github.com/2dust/v2rayNG)|&#10008;|&#10004;|
+|[OneClick](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197?l=zh)|&#10004;|&#10008;|
 
 |Desktop|MacOS|Linux|Windows|
 |----|----|----|----|
 |[yanue/V2rayU](https://github.com/yanue/V2rayU/tree/master)|&#10004;|&#10008;|&#10008;|
 |[2dust/v2rayN](https://github.com/2dust/v2rayN)|&#10008;|&#10008;|&#10004;|
+|[Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)|&#10004;|&#10004;|&#10004;|
 
 ## Subscription Mirror
 
