@@ -7,11 +7,12 @@ on:
 
 jobs:
   generate:
-    name: Generate on ${{ matrix.os }}
+    name: Generate on ${{ matrix.os }} with node.js ${{ matrix.node-version }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest]
+        node-version: [14.x]
     permissions:
       contents: write
     concurrency:
@@ -20,20 +21,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Fork V2Ray Subscription
+        with:
+          ref: v2ray-rules-cli
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+      - name: Merge V2Ray Subscription
         run: |
-          # mkdir
-          mkdir -p dist/gh-pages
-          # https://github.com/freefq/free
-          curl -Lj https://raw.githubusercontent.com/freefq/free/master/v2 -o dist/gh-pages/freefq_free
-          # https://github.com/Pawdroid/Free-servers
-          curl -Lj https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub -o dist/gh-pages/pawdroid_free_servers
-          # https://github.com/mfuu/v2ray
-          curl -Lj https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray -o dist/gh-pages/mfuu_v2ray
-          # https://github.com/aiboboxx/v2rayfree
-          curl -Lj https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 -o dist/gh-pages/aiboboxx_v2rayfree
-          # https://github.com/learnhard-cn/free_proxy_ss
-          curl -Lj https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub -o dist/gh-pages/learnhard_cn_free_proxy_ss
+          npm install
+          npm run dev -- merge --from-file list.json
       - name: Check Github Pages
         uses: actions/github-script@v6
         with:
