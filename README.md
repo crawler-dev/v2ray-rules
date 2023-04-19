@@ -4,6 +4,8 @@
 
 ![](https://api.qrserver.com/v1/create-qr-code?data=https://github.com/crawler-dev/v2ray-rules&size=128x128)
 
+[crawler-dev/v2ray-rules](https://github.com/crawler-dev/v2ray-rules)
+
 ## App
 
 |Mobile|iOS|Android|
