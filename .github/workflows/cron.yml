@@ -30,6 +30,8 @@ jobs:
           cache: 'npm'
           cache-dependency-path: package-lock.json
       - name: Merge V2Ray Subscription
+        env:
+          ACTIONS_RUNNER_DEBUG: true
         run: |
           npm install
           npm run dev -- merge --from-file list.json --debug
