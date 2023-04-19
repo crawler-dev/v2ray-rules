@@ -19,13 +19,13 @@
 
 ## Subscription
 
-|Subscription|Available|Url|
-|----|----|----|
-|[freefq/free](https://github.com/freefq/free)|&#10004;|https://raw.fastgit.org/freefq/free/master/v2|
-|[Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers)|&#10004;|https://raw.fastgit.org/Pawdroid/Free-servers/main/sub|
-|[mfuu/v2ray](https://github.com/mfuu/v2ray)|&#10004;|https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray|
-|[aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree)|&#10004;|https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2|
-|[learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss)|&#10004;|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|
+|Subscription|Available|Url|Url|
+|----|----|----|----|
+|[freefq/free](https://github.com/freefq/free)|&#10004;|https://raw.githubusercontent.com/freefq/free/master/v2|https://raw.fastgit.org/freefq/free/master/v2|
+|[Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers)|&#10004;|https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub|https://raw.fastgit.org/Pawdroid/Free-servers/main/sub|
+|[mfuu/v2ray](https://github.com/mfuu/v2ray)|&#10004;|https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray|https://raw.fastgit.org/mfuu/v2ray/master/v2ray|
+|[aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree)|&#10004;|https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2|https://raw.fastgit.org/aiboboxx/v2rayfree/main/v2|
+|[learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss)|&#10004;|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|https://raw.fastgit.org/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|
 
 ## Others
 
