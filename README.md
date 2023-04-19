@@ -34,7 +34,7 @@
 ## Others
 
 * [WilliamStar007/ClashX-V2Ray-TopFreeProxy](https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy)
-* [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN)
+* [anaer/Sub](https://github.com/anaer/Sub)
 
 ## Disclaimer
 
