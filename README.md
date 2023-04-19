@@ -8,28 +8,28 @@
 
 |Mobile|iOS|Android|
 |----|----|----|
-|[2dust/v2rayNG](https://github.com/2dust/v2rayNG)|<font color="#dd0000">&#10008;</font>|<font color="#00dd00">&#10004;</font>|
-|[OneClick](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197?l=zh)|<font color="#00dd00">&#10004;</font>|<font color="#dd0000">&#10008;</font>|
+|[2dust/v2rayNG](https://github.com/2dust/v2rayNG)|&#10008;|&#10004;|
+|[OneClick](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197?l=zh)|&#10004;|&#10008;|
 
 |Desktop|MacOS|Linux|Windows|
 |----|----|----|----|
-|[yanue/V2rayU](https://github.com/yanue/V2rayU/tree/master)|<font color="#00dd00">&#10004;</font>|<font color="#dd0000">&#10008;</font>|<font color="#dd0000">&#10008;</font>|
-|[2dust/v2rayN](https://github.com/2dust/v2rayN)|<font color="#dd0000">&#10008;</font>|<font color="#dd0000">&#10008;</font>|<font color="#00dd00">&#10004;</font>|
-|[Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)|<font color="#00dd00">&#10004;</font>|<font color="#00dd00">&#10004;</font>|<font color="#00dd00">&#10004;</font>|
+|[yanue/V2rayU](https://github.com/yanue/V2rayU/tree/master)|&#10004;|&#10008;|&#10008;|
+|[2dust/v2rayN](https://github.com/2dust/v2rayN)|&#10008;|&#10008;|&#10004;|
+|[Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)|&#10004;|&#10004;|&#10004;|
 
 ## Subscription
 
 |Subscription|Available|Url|Url|
 |----|----|----|----|
-|[mfuu/v2ray](https://github.com/mfuu/v2ray)|<font color="#00dd00">&#10004;</font>|https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray|https://raw.fastgit.org/mfuu/v2ray/master/v2ray|
-|[Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg)|<font color="#00dd00">&#10004;</font>|https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg|https://raw.fastgit.org/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg|
-|[wrfree/free](https://github.com/wrfree/free)|<font color="#00dd00">&#10004;</font>|https://raw.githubusercontent.com/wrfree/free/main/v2|https://raw.fastgit.org/wrfree/free/main/v2|
-|[NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN)|<font color="#00dd00">&#10004;</font>|https://sub.nicevpn.top/long||
-|[Fukki-Z/nodefree](https://github.com/Fukki-Z/nodefree)|<font color="#00dd00">&#10004;</font>|https://nodefree.org/dy/{yyyy}/{MM}/{yyyyMMdd}.txt||
-|[freefq/free](https://github.com/freefq/free)|<font color="#00dd00">&#10004;</font>|https://raw.githubusercontent.com/freefq/free/master/v2|https://raw.fastgit.org/freefq/free/master/v2|
-|[learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss)|<font color="#00dd00">&#10004;</font>|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|https://raw.fastgit.org/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|
-|[Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers)|<font color="#00dd00">&#10004;</font>|https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub|https://raw.fastgit.org/Pawdroid/Free-servers/main/sub|
-|[aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree)|<font color="#00dd00">&#10004;</font>|https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2|https://raw.fastgit.org/aiboboxx/v2rayfree/main/v2|
+|[mfuu/v2ray](https://github.com/mfuu/v2ray)|&#10004;|https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray|https://raw.fastgit.org/mfuu/v2ray/master/v2ray|
+|[Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg)|&#10004;|https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg|https://raw.fastgit.org/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg|
+|[wrfree/free](https://github.com/wrfree/free)|&#10004;|https://raw.githubusercontent.com/wrfree/free/main/v2|https://raw.fastgit.org/wrfree/free/main/v2|
+|[NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN)|&#10004;|https://sub.nicevpn.top/long||
+|[Fukki-Z/nodefree](https://github.com/Fukki-Z/nodefree)|&#10004;|https://nodefree.org/dy/{yyyy}/{MM}/{yyyyMMdd}.txt||
+|[freefq/free](https://github.com/freefq/free)|&#10004;|https://raw.githubusercontent.com/freefq/free/master/v2|https://raw.fastgit.org/freefq/free/master/v2|
+|[learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss)|&#10004;|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|https://raw.fastgit.org/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|
+|[Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers)|&#10004;|https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub|https://raw.fastgit.org/Pawdroid/Free-servers/main/sub|
+|[aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree)|&#10004;|https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2|https://raw.fastgit.org/aiboboxx/v2rayfree/main/v2|
 
 ## Others
 
