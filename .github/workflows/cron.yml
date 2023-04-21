@@ -22,7 +22,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: v2ray-rules-cli
+          repository: crawler-dev/v2ray-rules-cli
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
